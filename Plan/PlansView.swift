@@ -15,6 +15,7 @@ struct PlansView: View {
     @State private var locationName = ""
     
     var body: some View {
+      NavigationView{
         VStack {
             List{
                 ForEach(plans) { plan in
@@ -32,6 +33,7 @@ struct PlansView: View {
             }
             .padding()
         }
+      }
     }
     
     private func addPlan() {

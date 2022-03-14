@@ -17,7 +17,9 @@ struct PlanView: View {
             TextField("Plan name", text: $plan.name)
                 .font(.headline)
             if let location = plan.location {
-                LocationView(location: location)
+              NavigationLink(destination: LocationView(location: location)) {
+                Text("Location: \(location.name)")
+              }
             }
         }
     }

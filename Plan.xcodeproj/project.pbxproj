@@ -16,6 +16,7 @@
 		0A35CC6C27DF41A900D58F5D /* PlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A35CC6B27DF41A900D58F5D /* PlansView.swift */; };
 		0A35CC6E27DF44E200D58F5D /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A35CC6D27DF44E200D58F5D /* PlanView.swift */; };
 		0A35CC7027DF48B800D58F5D /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A35CC6F27DF48B800D58F5D /* LocationView.swift */; };
+		B56961DA27DFE10C00FEDD3C /* EditLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56961D927DFE10C00FEDD3C /* EditLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0A35CC6B27DF41A900D58F5D /* PlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansView.swift; sourceTree = "<group>"; };
 		0A35CC6D27DF44E200D58F5D /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 		0A35CC6F27DF48B800D58F5D /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		B56961D927DFE10C00FEDD3C /* EditLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				0A35CC6B27DF41A900D58F5D /* PlansView.swift */,
 				0A35CC6D27DF44E200D58F5D /* PlanView.swift */,
 				0A35CC6F27DF48B800D58F5D /* LocationView.swift */,
+				B56961D927DFE10C00FEDD3C /* EditLocation.swift */,
 				0A35CC5C27DF403E00D58F5D /* Assets.xcassets */,
 				0A35CC5E27DF403E00D58F5D /* Preview Content */,
 				0A35CC6927DF40E800D58F5D /* Plan.swift */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A35CC5B27DF403C00D58F5D /* ContentView.swift in Sources */,
+				B56961DA27DFE10C00FEDD3C /* EditLocation.swift in Sources */,
 				0A35CC7027DF48B800D58F5D /* LocationView.swift in Sources */,
 				0A35CC5927DF403C00D58F5D /* PlanApp.swift in Sources */,
 				0A35CC6A27DF40E800D58F5D /* Plan.swift in Sources */,
